@@ -3,7 +3,7 @@ name: Build HTML Docker Image
 on:
   push:
     branches:
-      - main  # Trigger on push to main branch
+      - master  # Trigger on push to main branch
 
 jobs:
   build:
